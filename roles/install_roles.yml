@@ -1,0 +1,22 @@
+---
+#
+# Install the roles listed below by issuing the following command inside
+# the 'roles' subdirectory:
+#
+# ansible-galaxy install -r ./install_roles.yml -p .
+#
+
+- src: Solinea.go
+  name: go
+
+- src: Solinea.vault
+  name: vault
+
+- src: Solinea.consul
+  name: consul
+
+- src: Solinea.dnsmasq
+  name: dnsmasq
+
+- src: Solinea.cfssl
+  name: cfssl

@@ -1,0 +1,9 @@
+- name: Configure
+  hosts: all
+  become: true
+  roles:
+    - go
+    - cfssl
+    - dnsmasq
+    - consul
+    - vault
